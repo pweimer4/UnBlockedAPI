@@ -9,7 +9,7 @@
     "npm": "7.6.0"
   },
   "scripts": {
-    "start": "nodemon src/index.ts",
+    "start": "node src/index.ts",
     "build": "tsc",
     "postinstall": "npm run build"
   },

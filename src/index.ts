@@ -1,5 +1,6 @@
 const express = require("express");
-import authRoutes from "./routes/auth";
+
+const authRoutes = require("./routes/auth");
 import subsRoutes from "./routes/subs";
 import mongoose from "mongoose"
 import dotenv = require("dotenv");
